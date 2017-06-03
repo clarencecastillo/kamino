@@ -2,4 +2,6 @@
 Placeholder for web-based (Django-based) applications
 
 ## Uses
-1. Django (version 1.11.2)
+No. | Package | Version | Purpose
+--- | ------- | ------- | -------
+1. | Django | 1.11.2 | Web framework / application server
