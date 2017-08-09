@@ -1,5 +1,5 @@
 """
-WSGI config for kamino_platform project.
+WSGI config for kamino project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kamino_platform.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kamino.settings")
 
 application = get_wsgi_application()

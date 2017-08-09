@@ -1,4 +1,4 @@
-"""kamino_platform URL Configuration
+"""kamino URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.11/topics/http/urls/
@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from isodose import views
+from isodose import urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^simulation/start', views.start_simulation)
+    url(r'^api/', include('isodose.urls'))
 ]
